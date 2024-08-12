@@ -18,7 +18,7 @@ class App extends Component<{}, State> {
     }));
 
   increment = this.makeIncrementer(1);
-  
+
   render() {
     return (
       <div>
