@@ -23,7 +23,7 @@ export class Book {
   @Prop()
   publisher: string;
 
-  @Prop({ type: DataView, default: Date.now })
+  @Prop({ type: Date, default: Date.now })
   updated_date: Date;
 }
 
